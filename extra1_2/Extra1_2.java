@@ -20,7 +20,7 @@ public class Extra1_2 {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Teclee el radio del triangulo");
         float radio=teclado.nextFloat();
-        float area=(float)(2*Math.PI*radio);
+        float area=(float)(Math.PI*Math.pow(radio, radio));
         System.out.println("El area del triangulo es "+area);
         
         
